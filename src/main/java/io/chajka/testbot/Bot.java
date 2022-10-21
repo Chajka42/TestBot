@@ -23,12 +23,12 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "Speed_Dating_LGBTQ_bot";
+        return "Super_test_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "5789681007:AAGkY1BCnl-pMKt5ExaZMFr5EL8DOZsCeTY";
+        return "-----------------------------------"; //tg token to access the HTTP API
     }
 
     @Override
