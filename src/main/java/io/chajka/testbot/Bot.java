@@ -18,7 +18,7 @@ public class Bot extends TelegramLongPollingBot {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
         Bot bot = new Bot();                  //We moved this line out of the register method, to access it later
         botsApi.registerBot(bot);
-        bot.sendText(703699939L, "Hello World!");  //The L just turns the Integer into a Long
+        //bot.sendText(1234L, "Hello World!");  //The L just turns the Integer into a Long
     }
 
     @Override
